@@ -7,7 +7,8 @@ use Faker\Generator as Faker;
 
 $factory->define(Course::class, function (Faker $faker) {
     return [
+        'course_id' => $faker->randomDigitNotNull,
         'name' => $faker->name,
-        'ecs' => $faker->paragraph
+        'ecs' => $faker->randomDigitNotNull
     ];
 });

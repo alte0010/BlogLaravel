@@ -8,7 +8,7 @@ class Assignment extends Model
 {
     public function courses()
     {
-        return $this->belongsTo(Course::class, 'user_id');
+        return $this->belongsTo(Course::class, 'course_id');
     }
 
     public function complete()

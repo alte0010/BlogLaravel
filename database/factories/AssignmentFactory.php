@@ -7,9 +7,9 @@ use Faker\Generator as Faker;
 
 $factory->define(Assignment::class, function (Faker $faker) {
     return [
-        'course_id' => factory(\App\User::class),
+        'course_id' => factory(\App\Course::class),
         'name' => $faker->sentence,
-        'weight' => $faker->sentence,
-        'grade' => $faker->paragraph
+        'weight' => $faker->randomDigitNotNull,
+        'grade' => $faker->numberBetween($min = 1, $max = 10)
     ];
 });
