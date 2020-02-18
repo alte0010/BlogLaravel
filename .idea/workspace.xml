@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="96578dac-bc2b-4cb0-9ac6-c06874961c62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_09_221057_create_articles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_09_221057_create_articles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Assignment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Assignment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AssignmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AssignmentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_05_143606_create_assignments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_05_143606_create_assignments_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +155,7 @@
       <workItem from="1581447314197" duration="23000" />
       <workItem from="1581447352701" duration="13543000" />
       <workItem from="1581954724224" duration="37000" />
-      <workItem from="1581954786045" duration="2215000" />
+      <workItem from="1581954786045" duration="8215000" />
     </task>
     <servers />
   </component>
@@ -163,6 +163,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1170" y="282" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582037565925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="282" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582037565925" />
     <state x="1181" y="136" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1581548399742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -207,16 +211,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581331687038" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/database/migrations/2020_02_05_143606_create_assignments_table.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
